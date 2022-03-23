@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Website</title>
 
+    <!-- To link our home page with style.css -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- To use fonts in our web app, first we added this css-->
+    <!-- Then copy pasted the code in CSS-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +23,10 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -28,17 +35,17 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="eduford_img/logo.png"></a>
-            <div class="nav-links" id = "navLinks">
+            <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                     <li><a href="">COURSE</a></li>
                     <li><a href="">BLOG</a></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick= "showMenu()"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -51,42 +58,168 @@
     </section>
 
     <!-- Course -->
-    <section class = "course">
+    <section class="course">
         <h1>Courses we offer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta unde non maiores, eum officiis minus iure atque repudiandae placeat amet cupiditate facilis nostrum! Sed repellendus recusandae neque distinctio possimus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta unde non maiores, eum officiis minus iure
+            atque repudiandae placeat amet cupiditate facilis nostrum! Sed repellendus recusandae neque distinctio
+            possimus.</p>
 
+        <!-- Rows and Columns for Courses -->
         <div class="row">
-            <div class = "course-col">
+            <div class="course-col">
                 <h3>Intermediate</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis fugit pariatur error rem deserunt iusto reiciendis nam beatae quisquam natus, porro ex hic delectus, amet eligendi consectetur, saepe architecto!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis fugit pariatur error rem
+                    deserunt iusto reiciendis nam beatae quisquam natus, porro ex hic delectus, amet eligendi
+                    consectetur, saepe architecto!</p>
             </div>
 
-            <div class = "course-col">
+            <div class="course-col">
                 <h3>Degree</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis fugit pariatur error rem deserunt iusto reiciendis nam beatae quisquam natus, porro ex hic delectus, amet eligendi consectetur, saepe architecto!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis fugit pariatur error rem
+                    deserunt iusto reiciendis nam beatae quisquam natus, porro ex hic delectus, amet eligendi
+                    consectetur, saepe architecto!</p>
             </div>
 
-            <div class = "course-col">
+            <div class="course-col">
                 <h3>Postgraduation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis fugit pariatur error rem deserunt iusto reiciendis nam beatae quisquam natus, porro ex hic delectus, amet eligendi consectetur, saepe architecto!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis fugit pariatur error rem
+                    deserunt iusto reiciendis nam beatae quisquam natus, porro ex hic delectus, amet eligendi
+                    consectetur, saepe architecto!</p>
             </div>
         </div>
     </section>
 
     <!--  Campus -->
-    <section class = "campus">
+    <section class="campus">
         <h1>Our Global Campus</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cumque inventore ad laboriosam? Maxime accusamus accusantium nostrum vel voluptate commodi quibusdam alias optio molestias, veritatis natus voluptas recusandae nam esse?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cumque inventore ad laboriosam? Maxime
+            accusamus accusantium nostrum vel voluptate commodi quibusdam alias optio molestias, veritatis natus
+            voluptas recusandae nam esse?</p>
 
+        <!-- Rows and Columns for images -->
         <div class="row">
             <div class="campus-col">
-                <img src = "eduford_img/london.png">
+                <img src="eduford_img/london.png">
                 <div class="layer">
                     <h3>LONDON</h3>
                 </div>
             </div>
+
+
+
+
+            <div class="campus-col">
+                <img src="eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+
+
+            <div class="campus-col">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
         </div>
 
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur enim ducimus, necessitatibus voluptas eos
+            dolorum reprehenderit dolorem possimus? Totam esse illo minima debitis ipsa nemo iure, quasi adipisci
+            aperiam dolor!</p>
+
+        <!-- Rows and Columns for Facilities-->
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>
+
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png">
+                <h3>Largest Play Ground </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </P>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="testimonials">
+        <h1>What our Students say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+        <!-- Rows and Columns for Testimonials -->
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="eduford_img/user1.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p>
+                    <h3>Samadrita Ghosh</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="eduford_img/user2.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. .
+                    </p>
+                    <h3>Adrija Ghosh</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h1>Enroll for our various online courses anywhere for the world.</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <h4>About the Creator</h4>
+        <p> This web app was built to enhance the understanding of how HTML and CSS <br> can be combined to make a web
+            app responsive.</p>
+
+        <div class="icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made by Aarush Sharma</p>
     </section>
 
 
@@ -94,11 +227,11 @@
     <script>
         var navLinks = document.getElementById("navLinks");
 
-        function showMenu(){
+        function showMenu() {
             navLinks.style.right = "0";
         }
 
-        function hideMenu(){
+        function hideMenu() {
             navLinks.style.right = "-200px";
         }
     </script>
