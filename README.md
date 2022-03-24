@@ -1,10 +1,10 @@
 # College Website
 
-I have made a responsive web app with the help of a Youtube Tutorial.
+I have made a responsive web app with the help of a Youtube Tutorial to enhance my understanding of HTML and CSS.
 
 ## Tech Stack 
 
-HTML and CSS
+HTML, CSS and PHP (used for retrieving contact form data)
 
 ## What it contains ?
 
@@ -17,4 +17,5 @@ HTML and CSS
 ## How does it work ? 
 
 All the pages are linked to each other via a navigation bar. Click on these to naviagate from one page to another.
+
 
